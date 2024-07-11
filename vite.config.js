@@ -25,8 +25,7 @@ export default defineConfig({
         assetFileNames: (assetInfo) => {
           if (assetInfo.name === "style.css") return "react-chatbotify.css";
           return assetInfo.name;
-        },
-        intro: 'import "./react-chatbotify.css";',
+        }
       },
     },
     outDir: "../dist",
